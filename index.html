@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Guitar Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="keys">
+        <div onclick="coolGuitarRiff()" data-key="81" class="key c-riff">
+          <kbd>Q</kbd>
+          <span  class="sound">c-riff</span>
+        </div>
+        <div onclick="guitarStrokeDownSlow()" data-key="87" class="key s-down">
+          <kbd>W</kbd>
+          <span class="sound">s-down</span>
+        </div>
+        <div onclick="strokeUpSlow()" data-key="69" class="key s-up">
+          <kbd>E</kbd>
+          <span class="sound">s-up</span>
+        </div>
+        <div onclick="happyGuitarChords()" data-key="82" class="key riff">
+          <kbd>R</kbd>
+          <span class="sound">riff</span>
+        </div>
+        <div onclick="shortGuitarRiff()" data-key="84" class="key s-riff">
+          <kbd>T</kbd>
+          <span class="sound">s-riff</span>
+        </div>
+        <div onclick="shortGuitarStrum()" data-key="89" class="key strum">
+          <kbd>Y</kbd>
+          <span class="sound">strum</span>
+        </div>
+
+  <audio data-key="81" src="sound/cool-guitar-riff.wav"></audio>
+  <audio data-key="87" src="sound/guitar-stroke-down-slow.wav"></audio>
+  <audio data-key="69" src="sound/guitar-stroke-up-slow.wav"></audio>
+  <audio data-key="82" src="sound/happy-guitar-chords.wav"></audio>
+  <audio data-key="84" src="sound/short-guitar-riff.wav"></audio>
+  <audio data-key="89" src="sound/short-guitar-strum.wav"></audio>
+
+
+  <script src="app.js" defer></script>
+</body>
+
+
+</html>
