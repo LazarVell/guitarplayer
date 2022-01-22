@@ -2,7 +2,7 @@
 
 One of my more ambitious beginner projects, I wanted to create a guitar player that plays both on a PC with a keyboard and a phone, in absence of one.
 
-For the keyboard, the keys have a <kbd> parameter inside of them that is used to pass the numerical value of the corresponding key once the key is pressed. The songs also have a data-key value that corresponds to the numerical value that every key holds, and is unique to each key. (ie. the value for Q is 81).
+For the keyboard, the keys have a KBD parameter inside of them that is used to pass the numerical value of the corresponding key once the key is pressed. The songs also have a data-key value that corresponds to the numerical value that every key holds, and is unique to each key. (ie. the value for Q is 81).
   
 Then, an event trigger is used to play the audio file.
   
