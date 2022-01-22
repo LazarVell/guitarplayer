@@ -51,4 +51,15 @@ kbd {
     letter-spacing: .1rem;
     color: #ffc600;
 }
+
+@media only screen and (max-width: 600px) {
+    .key {
+        width: 6rem;
+        height: 5rem;
+    }
+
+    kbd {
+        font-size: 3rem;
+    }
+  }
   
